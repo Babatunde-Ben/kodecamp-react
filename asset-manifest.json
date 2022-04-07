@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/kodecamp-react/static/css/main.2935de58.css",
+    "main.js": "/github.io/kodecamp-react/static/js/main.00b939d2.js",
+    "static/js/787.016dd43c.chunk.js": "/github.io/kodecamp-react/static/js/787.016dd43c.chunk.js",
+    "index.html": "/github.io/kodecamp-react/index.html",
+    "main.2935de58.css.map": "/github.io/kodecamp-react/static/css/main.2935de58.css.map",
+    "main.00b939d2.js.map": "/github.io/kodecamp-react/static/js/main.00b939d2.js.map",
+    "787.016dd43c.chunk.js.map": "/github.io/kodecamp-react/static/js/787.016dd43c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2935de58.css",
+    "static/js/main.00b939d2.js"
+  ]
+}

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +38,90 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+.App {
+  font-family: 'Nunito', sans-serif;
+  background-color:#f7f7f7;
+  margin:0;
+  padding:0;
+  width:100vw;
+  
+}
+.header{
+  font-size:1.5rem;
+  color:#fff;
+  text-transform:capitalize;
+  position: relative;
+  display :block;
+  text-align:left;
+  padding:15px 25px;
+  margin:auto;
+  margin-bottom:30px;
+  /* background-color:#141524; */
+  background-color:#f56c42;
+
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  width:100vw;
+}
+.card-container{
+background-color: #292929;
+width: 250px;
+padding:20px;
+margin:20px;
+border-radius: 8px;
+box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+.bold{
+  color : #f56c42;
+  font-weight:bold;
+  text-transform:capitalize;  
+  margin-right: 5px;
+  display:inline-block;
+}
+.card-container p,
+.card-container li,
+.card-container ul{
+  color: white;
+  text-align:left;
+}
+.card-container ul{
+ margin: 0;
+ padding:  0;
+}
+.card-container li{
+  list-style:circle;
+  margin-left:20px;
+  padding:0;
+} 
+.footer {
+  margin-top:20px;
+  height:20vh;
+  text-align:center;
+  line-height:20vh;
+  background-color:#070814;
+  color:#919191;
+}
+@media only screen and (max-width: 420px) {
+  .header{
+    padding: 10px 30px;
+  }
+  .card-container {
+    width:250px;
+    margin: 20px 0 
+  }
+  .cards{
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  flex-wrap:wrap;
+}
 }
